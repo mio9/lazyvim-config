@@ -11,4 +11,7 @@ return {
       require("symbols-outline").setup()
     end,
   },
+  {
+    "fedepujol/move.nvim",
+  },
 }
