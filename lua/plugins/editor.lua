@@ -14,4 +14,5 @@ return {
   {
     "fedepujol/move.nvim",
   },
+  { "akinsho/toggleterm.nvim", version = "*", config = true },
 }
