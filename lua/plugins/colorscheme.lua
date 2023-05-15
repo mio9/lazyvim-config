@@ -1,7 +1,18 @@
 return {
   {
     "catppuccin/nvim",
-    lazy = false,
+    lazy = true,
     name = "catppuccin",
+  },
+  {
+    "navarasu/onedark.nvim",
+    lazy = true,
+    name = "onedark",
+  },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "onedark",
+    },
   },
 }
