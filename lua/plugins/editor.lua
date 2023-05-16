@@ -15,5 +15,12 @@ return {
     "fedepujol/move.nvim",
   },
   { "akinsho/toggleterm.nvim", version = "*", config = true },
-  { "Exafunction/codeium.vim" },
+  {
+    "Exafunction/codeium.vim",
+    config = function()
+      vim.keymap.set("i", "<M-Right>", function()
+        return vim.fn["codeium#Accept"]()
+      end, { expr = true })
+    end,
+  },
 }
