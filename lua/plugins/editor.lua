@@ -16,11 +16,13 @@ return {
   },
   { "akinsho/toggleterm.nvim", version = "*", config = true },
   -- {
-  --   "Exafunction/codeium.vim",
+  --   "Exafunction/codeium.nvim",
+  --   dependencies = {
+  --     "nvim-lua/plenary.nvim",
+  --     "hrsh7th/nvim-cmp",
+  --   },
   --   config = function()
-  --     vim.keymap.set("i", "<M-Right>", function()
-  --       return vim.fn["codeium#Accept"]()
-  --     end, { expr = true })
+  --     require("codeium").setup({})
   --   end,
   -- },
 }
