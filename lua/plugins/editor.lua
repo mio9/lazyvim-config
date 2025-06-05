@@ -14,15 +14,5 @@ return {
   {
     "fedepujol/move.nvim",
   },
-  { "akinsho/toggleterm.nvim", version = "*", config = true },
-  -- {
-  --   "Exafunction/codeium.nvim",
-  --   dependencies = {
-  --     "nvim-lua/plenary.nvim",
-  --     "hrsh7th/nvim-cmp",
-  --   },
-  --   config = function()
-  --     require("codeium").setup({})
-  --   end,
-  -- },
+  { "akinsho/toggleterm.nvim", version = "*", config = true }
 }
